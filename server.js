@@ -9,6 +9,6 @@ app.use(express.static(__dirname + '/static'));
 var server = http.createServer(app);
 
 //app.listen(80);
-app.listen(process.env.PORT || 3000);
+app.listen(process.env.PORT || 80);
 console.log('portfolio express server started');
 
